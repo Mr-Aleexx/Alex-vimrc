@@ -23,17 +23,17 @@ Plug 'prabirshrestha/asyncomplete.vim'
 Plug 'prabirshrestha/asyncomplete-lsp.vim'
 
 
-" LSP Support for Vim (not Neovim)
+" LSP Support for Vim
 Plug 'prabirshrestha/vim-lsp'
 Plug 'mattn/vim-lsp-settings'
 
-" Auto pairs for brackets, braces, quotes, etc.
+" Auto pairs 
 Plug 'jiangmiao/auto-pairs'
 
-" Optional: Nice status line
+" Nice status line
 Plug 'vim-airline/vim-airline'
 
-" Optional: Syntax improvements
+" Syntax improvements
 Plug 'sheerun/vim-polyglot'
 
 call plug#end()
@@ -63,10 +63,3 @@ let g:AutoPairsFlyMode = 1
 " --- Appearance tweaks ---
 set background=dark
 set termguicolors
-
-
-" --- Disable Warnings ---
-let g:ale_sign_column_always = 0
-let g:ale_set_signs = 0
-
-
